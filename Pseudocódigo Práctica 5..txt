@@ -1,0 +1,15 @@
+INICIO 
+**Función que suma dos números enteros**
+FUNC sumar (a:ENTERO, b:ENTERO) 
+c:ENTERO
+C:=sumar (a,b) 
+SI a:= 9
+   b:= 1
+ENTONCES 
+   c:= 10
+FIN SI DE LO CONTRARIO
+SI a: ENTERO < 9 
+ENTONCES
+   c:= suma (a,b)
+FIN DE LO CONTRARIO
+FIN 
